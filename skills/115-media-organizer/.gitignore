@@ -1,0 +1,20 @@
+# 严禁将任何浏览器登录态目录、回滚快照、本地缓存与敏感凭证纳入版本控制
+.chrome-debug-profile/
+*chrome-profile*/
+snapshots/
+*.snapshot.json
+rollback-*.json
+latest-dry-run-*.json
+latest-movie-dry-run-*.json
+latest-sub-match-*.json
+
+# Node 与系统临时文件
+node_modules/
+npm-debug.log*
+*.log
+*.png
+*.jpg
+.env
+.env.*
+.DS_Store
+Thumbs.db

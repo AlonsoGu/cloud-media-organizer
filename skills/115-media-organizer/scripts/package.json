@@ -1,0 +1,16 @@
+{
+  "name": "115-tmdb-organizer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Agent-driven 115 Cloud media season organizer & renamer powered by TMDB and Chrome CDP",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "chrome": "node organizer.mjs --launch-chrome",
+    "plan": "node organizer.mjs --dry-run",
+    "apply": "node organizer.mjs --execute",
+    "test": "node --test test/matcher.test.mjs test/cli.test.mjs"
+  }
+}

@@ -1,0 +1,16 @@
+# 运行期浏览器登录态、快照与敏感文件（严禁纳入版本控制）
+.chrome-debug-profile/
+*chrome-profile*/
+snapshots/
+*.snapshot.json
+rollback-*.json
+latest-*.json
+
+# Node 与系统临时文件
+node_modules/
+npm-debug.log*
+*.log
+.env
+.env.*
+.DS_Store
+Thumbs.db
