@@ -199,13 +199,13 @@
 #### ⚡ 方式 1：使用 Skills CLI 一键安装（推荐）
 
 ```bash
-npx skills add AlonsoGu/cloud-media-organizer
+npx skills add AlonsoRode/cloud-media-organizer
 ```
 
 #### 📂 方式 2：手动克隆至 AI 助手全局 Skill 目录
 
 ```bash
-git clone https://github.com/AlonsoGu/cloud-media-organizer.git
+git clone https://github.com/AlonsoRode/cloud-media-organizer.git
 ```
 
 将仓库中的 `skills/115-media-organizer` 文件夹复制到对应工具的全局 Skills 目录：
@@ -216,7 +216,7 @@ git clone https://github.com/AlonsoGu/cloud-media-organizer.git
 #### 🤖 方式 3：直接让 AI 助手安装
 
 直接把本仓库地址发给你的 AI 助手：
-> “请帮我读取并安装这个 GitHub 仓库里的 Skill：`https://github.com/AlonsoGu/cloud-media-organizer`”
+> “请帮我读取并安装这个 GitHub 仓库里的 Skill：`https://github.com/AlonsoRode/cloud-media-organizer`”
 
 ### 🎯 使用示例
 
